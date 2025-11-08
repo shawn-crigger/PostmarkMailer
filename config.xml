@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <metadata>
+    <name>PostmarkMailer</name>
+    <type>plugin</type>
+    <creationDate>2025-11-07</creationDate>
+    <last_update>2025-11-07</last_update>
+    <version>1.0.5</version>
+    <author>Shawn Crigger</author>
+    <license>MIT</license>
+    <description><![CDATA[Send LimeSurvey emails via Postmark API.]]></description>
+  </metadata>
+  <compatibility>
+    <version>5.0</version>
+    <version>6.0</version>
+  </compatibility>
+  <updaters disabled="disabled">
+  </updaters>
+  <settings>
+    <setting key="api_key" type="string" label="Postmark API Key" help="Your Postmark Server API key" />
+    <setting key="from_email" type="string" label="From Email" help="Email address to send from" />
+    <setting key="from_name" type="string" label="From Name" help="Name of the sender" />
+  </settings>
+</config>
